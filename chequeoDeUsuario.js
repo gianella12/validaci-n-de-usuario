@@ -22,7 +22,8 @@ formulario.addEventListener("submit", (event) => {
 
     if (existeElUsuario) {
         alert(`Bienvenido a tu cuenta ${existeElUsuario.nombre}`);
+        
     }else {
-        alert("No encontramos tu usuario");
+        alert("No encontramos tu usuario. Verifica el nombre de usuario o contraseña");
     }
     })
